@@ -1,8 +1,8 @@
 package java_tutorials;
 
-public class unary_operator {
+public class UnaryOperator {
 
-	public static void main(String[] args) {
+	public void execute(){
 		
 		int number1 = 10;
 //		// unary minus(-)	
