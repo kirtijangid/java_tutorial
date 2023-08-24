@@ -1,6 +1,6 @@
 package java_tutorials;
 
-public class static_variable {
+public class StaticVariable {
 		// static variable
 		static int a = m1();
 
@@ -17,9 +17,7 @@ public class static_variable {
 			return 20;
 		}
 
-		// static method(main !!)
-		public static void main(String[] args)
-		{
+		public void  execute() {
 			System.out.println("Value of a : " + a);
 			System.out.println("from main");
 		}
