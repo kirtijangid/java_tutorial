@@ -10,7 +10,7 @@ public class static_variable {
 			System.out.println("Inside static block");
 		}
 
-		// static method
+		// static method-----we can access it without creating object 
 		static int m1()
 		{
 			System.out.println("from m1");
