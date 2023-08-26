@@ -1,8 +1,8 @@
 package java_tutorials;
 
 public class SIB {
-	// SIB executes when the class gets loaded and executes only once in entire
-	// execution
+	// SIB executes when the class gets loaded and executes only once in entire execution
+	
 	static {
 		System.out.println("SIB-1");
 	}
@@ -10,8 +10,7 @@ public class SIB {
 	static {
 		System.out.println("SIB-2");
 	}
-	// IIB executes when the constructor is called but before the execution of
-	// constructor.
+	// IIB executes when the constructor is called but before the execution of constructor.
 	// So it executes as many times as constructor gets executed.
 	{
 		System.out.println("IIB-1");
