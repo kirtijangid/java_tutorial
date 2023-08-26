@@ -1,6 +1,7 @@
 package java_tutorials;
 
 //class A{
+
 //	int a = 2;
 //}
 //class B extends A{
@@ -18,52 +19,34 @@ package java_tutorials;
 //
 //}
 
+// another example using methods and constructors
 
-                 // another example
-
-class Toys{
+class Toys {
 	public Toys() {
 		System.out.println("class Toys");
 	}
+
 	public void type() {
 		System.out.println("type = toys");
 	}
 }
-	
-	class Toys2 extends Toys{
-		public Toys2() {
-			System.out.println("class Toys2");
-		}
-		public void category(){
-			System.out.println("category = rubber");
-		}
+
+class Toys2 extends Toys {
+	public Toys2() {
+		System.out.println("class Toys2");
 	}
-	public class Multilevel extends Toys2{
-		public static void main(String[] args) {
-			Multilevel obj = new Multilevel();
-			
-			obj.type();
-			obj.category();
-		}
-		
+
+	public void category() {
+		System.out.println("category = rubber");
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+}
 
+public class Multilevel extends Toys2 {
+	public static void main(String[] args) {
+		Multilevel obj = new Multilevel();
 
+		obj.type();
+		obj.category();
+	}
 
-
-
-
-
-
-
-
-
-
+}
