@@ -1,10 +1,10 @@
 
+
 //calling static members without creating object of the class
 
 package java_tutorials;
 
 public class CallingStatic {
-
 	static int a = 10;
 
 	static void k() {
