@@ -57,7 +57,12 @@ package java_tutorials;
 //System.out.println("Rate of Interest is: "+b.getRateOfInterest()+" %");    
 //}}    
 
-//Example of an abstract class that has abstract and non-abstract methods  
+
+
+
+		//Example of an abstract class that has abstract and non-abstract methods  
+
+
 
 abstract class Bike {
 	Bike() {
@@ -86,3 +91,8 @@ class Abstract {
 		obj.changeGear();
 	}
 }
+
+
+// Rule: If there is an abstract method in a class, that class must be abstract.
+
+
