@@ -1,20 +1,20 @@
 package java_tutorials;
 
-//abstract class Abstract1{
+abstract class Abstract1{
 
-//		abstract void run();     // abstract method don't have body
-//			
-//	
-//}
-//public class Abstract extends Abstract1 {
-//	void run() {
-//		System.out.println("abstract class");
-//	}
-//	public static void main(String[] args) {
-//		Abstract1 obj = new Abstract();
-//		obj.run();
-//	}
-//}
+		abstract void run();     // abstract method don't have body
+			
+	
+}
+public class Abstract extends Abstract1 {
+	void run() {
+		System.out.println("abstract class");
+	}
+	public static void main(String[] args) {
+		Abstract1 obj = new Abstract();
+		obj.run();
+	}
+}
 
 // another example using abstract class and method
 
@@ -64,35 +64,34 @@ package java_tutorials;
 
 
 
-abstract class Bike {
-	Bike() {
-		System.out.println("bike is created");
-	}
-
-	abstract void run();
-
-	void changeGear() {
-		System.out.println("gear changed");
-	}
-}
-
+//abstract class Bike {
+//	Bike() {
+//		System.out.println("bike is created");
+//	}
+//
+//	abstract void run();
+//
+//	void changeGear() {
+//		System.out.println("gear changed");
+//	}
+//}
+//
 //Creating a Child class which inherits Abstract class  
-class Honda extends Bike {
-	void run() {
-		System.out.println("running safely..");
-	}
-}
-
+//class Honda extends Bike {
+//	void run() {
+//		System.out.println("running safely..");
+//	}
+//}
+//
 //Creating a Test class which calls abstract and non-abstract methods  
-class Abstract {
-	public static void main(String args[]) {
-		Bike obj = new Honda();
-		obj.run();
-		obj.changeGear();
-	}
-}
-
-
-// Rule: If there is an abstract method in a class, that class must be abstract.
-
+//class Abstract {
+//	public static void main(String args[]) {
+//		Bike obj = new Honda();
+//		obj.run();
+//		obj.changeGear();
+//	}
+//}
+//
+//
+  // Rule: If there is an abstract method in a class, that class must be abstract.
 

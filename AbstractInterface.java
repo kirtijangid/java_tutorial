@@ -1,5 +1,7 @@
-package java_tutorials;
 
+// The abstract class can also be used to provide some implementation of the interface.
+
+package java_tutorials;
 
 	interface Base{  
 		void a();  
