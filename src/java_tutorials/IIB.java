@@ -40,6 +40,7 @@ class IIB1{
 		System.out.println("IIB-1 block");
 	}
 }
+//Instance Initialization Block with super()
 
 class IIB extends IIB1{
 	IIB(){
@@ -55,6 +56,14 @@ class IIB extends IIB1{
 }
 
 
+/*In this the compiler tries to execute the class A constructor, 
+ * when the object of class A is created. But it finds super() statement 
+ * and goes to the parent class constructor first to be executed. The order of execution
+
+Instance Initialization Block of the superclass. 
+Constructors of the superclass. 
+Instance Initialization Blocks of the subclass. 
+Constructors of the subclass.*/
 
 
 
