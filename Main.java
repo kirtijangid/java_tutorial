@@ -1,33 +1,20 @@
 package java_tutorials;
 
 public class Main {
+
 	public static void main(String[] args) {
-		
-		//variables
-		
-		Variables variables = new Variables();
-		variables.execute();
-		
-		// conditional statements
-		
-		CndtnlStatmnts conditional = new CndtnlStatmnts();
-		conditional.execute();
-		
-		// Loops 
-		
-		Loops loops = new Loops();
-		loops.execute();
-		
-		//Pass by value 
-		
-		PassByValue p=new PassByValue();
-		p.execute();
-		
-		// Unary operators 
-		
-		UnaryOperator unary = new UnaryOperator();
-		unary.execute();
+		// SIB
+		SIB sib = new SIB();
+		sib.execute();
+
+		// static members
+		AccessingStaticMember staticMember = new AccessingStaticMember();
+		staticMember.execute();
+
+		// static variables
+		StaticVariable staticVariable = new StaticVariable();
+		staticVariable.execute();
+
 	}
+
 }
-	
-	
