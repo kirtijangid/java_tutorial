@@ -1,15 +1,16 @@
 package java_tutorials;
 
-abstract class Abstract1{
+abstract class Abstract1 {
 
-		abstract void run();     // abstract method don't have body
-			
-	
+	abstract void run(); // abstract method don't have body
+
 }
+
 public class Abstract extends Abstract1 {
 	void run() {
 		System.out.println("abstract class");
 	}
+
 	public static void main(String[] args) {
 		Abstract1 obj = new Abstract();
 		obj.run();
