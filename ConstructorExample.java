@@ -1,7 +1,5 @@
 package java_tutorials;
 
-//import java.io.*;
-
 class TestConstructor {
 	// declare data member
 	int number;
