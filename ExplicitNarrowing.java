@@ -16,3 +16,11 @@ public class ExplicitNarrowing {
     }
  
 }
+
+			//Example:
+
+			//byte=short
+			//short=int
+			//int=long
+			//long=float
+			//float=double
