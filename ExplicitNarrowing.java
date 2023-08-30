@@ -10,7 +10,9 @@ public class ExplicitNarrowing {
         int i = (int) l; // explicit type casting is required
  
         System.out.println("i= " + i);
+        
         System.out.println("l= " + l);
+        
         System.out.println("d= " + d);
  
     }
