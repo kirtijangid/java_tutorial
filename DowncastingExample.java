@@ -16,7 +16,7 @@ class Second extends First {
     
     // Performing overriding  
     @Override  
-    void showMessage()   
+    void showMessage()  
     {   
         System.out.println("Child method is called");   
     }   
