@@ -14,17 +14,18 @@ import java.lang.annotation.Target;
 
 public class TypeAnnotation {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Annotating the type of a string
 		@TypeAnnoDemo
+		
 		String string = "I am annotated with a type annotation";
 		System.out.println(string);
 		abc();
 	}
 
 	// Annotating return type of a function
+	
 	static @TypeAnnoDemo int abc() {
 
 		System.out.println("This function's return type is annotated");
