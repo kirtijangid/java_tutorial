@@ -27,7 +27,7 @@ any Name as a subclass of the specified type*/
 //}
 
 
-        /*Java Program to Illustrate Anonymous Inner Classes
+        /* Program to Illustrate Anonymous Inner Classes
            Declaration Without Any Name as an implementer of Specified interface. */
 
 interface Hello {
