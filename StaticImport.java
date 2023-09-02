@@ -39,23 +39,23 @@ package java_tutorials;
 //	}
 //}
 
-
-
 // to illustrate ambiguity in case of static import
 
 import static java.lang.Integer.*;
 import static java.lang.Byte.*;
+
 public class StaticImport {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		system.out.println(MAX_VALUE);
 	}
 }
 
-
-/* Explanation : In the above program, we are trying to access MAX_VALUE variable, 
-but Every primitive data type contains MAX_VALUE variable which is pre-declared in there 
-Wrapper class. Here we are importing Integer and Byte class simultaneously and trying to access 
-static variable MAX_VALUE but here compiler will be confused by seeing two import statements
-because both Integer and Byte class contains a static variable MAX_VALUE. 
-Therefore here compiler throw an error saying Reference to MAX_VALUE is ambiguous.*/
+/*
+ * Explanation : In the above program, we are trying to access MAX_VALUE
+ * variable, but Every primitive data type contains MAX_VALUE variable which is
+ * pre-declared in there Wrapper class. Here we are importing Integer and Byte
+ * class simultaneously and trying to access static variable MAX_VALUE but here
+ * compiler will be confused by seeing two import statements because both
+ * Integer and Byte class contains a static variable MAX_VALUE. Therefore here
+ * compiler throw an error saying Reference to MAX_VALUE is ambiguous.
+ */
