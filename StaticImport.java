@@ -2,15 +2,15 @@ package java_tutorials;
 
 //calling of predefined methods without static import
 
-//public class StaticImport {
-//
-//	public static void main(String[] args) {
-//		System.out.println(Math.sqrt(4));
-//		System.out.println(Math.pow(9,2));
-//		System.out.println(Math.abs(16.9));
-//	}
-//
-//}
+public class StaticImport {
+
+	public static void main(String[] args) {
+		System.out.println(Math.sqrt(4));
+		System.out.println(Math.pow(9,2));
+		System.out.println(Math.abs(16.9));
+	}
+
+}
 
 //calling of predefined methods with static import
 
@@ -41,14 +41,14 @@ package java_tutorials;
 
 // to illustrate ambiguity in case of static import
 
-import static java.lang.Integer.*;
-import static java.lang.Byte.*;
-
-public class StaticImport {
-	public static void main(String[] args) {
-		system.out.println(MAX_VALUE);
-	}
-}
+//import static java.lang.Integer.*;
+//import static java.lang.Byte.*;
+//
+//public class StaticImport {
+//	public static void main(String[] args) {
+//		system.out.println(MAX_VALUE);
+//	}
+//}
 
 /*
  * Explanation : In the above program, we are trying to access MAX_VALUE
