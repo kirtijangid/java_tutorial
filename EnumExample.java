@@ -22,7 +22,7 @@ package java_tutorials;
 //}
 //
 
-// another example
+                // another example
 
 enum Level {
 	LOW, MEDIUM, HIGH
