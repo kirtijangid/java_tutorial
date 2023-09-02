@@ -24,18 +24,30 @@ package java_tutorials;
 //	}
 //}
 
-      
-           // calling of static member of System class without Class name
+// calling of static member of System class without Class name
 
-import static java.lang.Math.*;
-import static java.lang.System.*;
+//import static java.lang.Math.*;
+//import static java.lang.System.*;
+//
+//class StaticImport {
+//	public static void main(String[] args) {
+//		// We are calling static member of System class directly without System class
+//		// name
+//		out.println(sqrt(4));
+//		out.println(pow(2, 2));
+//		out.println(abs(6.3));
+//	}
+//}
 
-class StaticImport {
-	public static void main(String[] args) {
-		// We are calling static member of System class directly without System class
-		// name
-		out.println(sqrt(4));
-		out.println(pow(2, 2));
-		out.println(abs(6.3));
+
+
+// to illustrate ambiguity in case of static import
+
+import static java.lang.Integer.*;
+import static java.lang.Byte.*;
+public class StaticImport {
+	public static void main(String[] args)
+	{
+		system.out.println(MAX_VALUE);
 	}
 }
