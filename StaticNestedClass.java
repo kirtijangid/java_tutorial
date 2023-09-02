@@ -1,6 +1,6 @@
 package java_tutorials;
 
-//Java Program to Illustrate Static Nested Classes
+// Program to Illustrate Static Nested Classes
 
 class Outer3 {
 	private static void outerMethod() {
